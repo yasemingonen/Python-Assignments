@@ -9,3 +9,13 @@
 #chronic =  # can be assigned only True/False
 #immune =  # can be assigned only True/False
 #risk = ?
+
+age = str(input("Are you a cigarette addict older than 75 years old?(answer just yes or no): "))
+chronic = str(input("Do you have a severe chronic disease?: "))
+immune = str(input("Is your immune system too weak?: "))
+if age == "no" and chronic == "no"  and immune == "no" :
+    print("You are not in risky group") 
+elif age != "yes" or "no" or chronic != "yes" or "no" or immune != "yes" or "no" :
+    print("Please just write yes or no!") 
+else :
+    print("You are in risky group")
