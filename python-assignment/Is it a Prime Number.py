@@ -9,13 +9,13 @@ number = int(input("please enter a number: "))
 abc = 0
 
 
-for i in range(1, n+1) :
-   if not n % i :
+for i in range(1, number+1) :
+   if not number % i :
        abc += 1
 
-if (n == 0) or (n == 1) or (abc >= 3) :
-    print(n, "is not prime number")
+if (number == 0) or (number == 1) or (abc >= 3) :
+    print(number, "is not prime number")
 else:
-    print(n, "is a prime number")
+    print(number, "is a prime number")
 
 
