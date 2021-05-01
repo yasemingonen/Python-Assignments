@@ -9,3 +9,21 @@
 #takes a positive integer number from the user,
 #checks the entered number if it is Armstrong,
 #consider the negative, float and any entries other than numeric values then display a warning message to the user.
+
+
+
+while True : 
+    number = input("enter a positive number: ")
+    digits = len(number)
+    summ = 0
+
+    if not number.isdigit() :
+        print(number, "is invalid entry. enter numeric value!")
+    elif int(number) >= 0 :
+        for i in range(digits) :
+            summ = summ + int(number[i]) ** digits
+        if summ == int(number) :
+            print(number, "is an armstrong number")
+            break
+        else :
+            print("it isn't armstrong number ")
