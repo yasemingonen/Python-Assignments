@@ -24,7 +24,7 @@ elif int(number) > 1 :
 print(f"Prime number is : ", list_prime)
 print(f"Not prime number is :", not_prime)
 
-#this is made by yasemin.
+
 
 
 
