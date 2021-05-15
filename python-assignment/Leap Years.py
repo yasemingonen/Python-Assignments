@@ -22,5 +22,3 @@ else :
     print(f"{leap_year} is not a leap year.")
 
 
-
-
